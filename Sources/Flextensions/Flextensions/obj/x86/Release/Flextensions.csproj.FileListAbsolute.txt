@@ -1,0 +1,6 @@
+E:\_Development\XNA\Flextensions\Flextensions\bin\x86\Release\Flextensions.dll
+E:\_Development\XNA\Flextensions\Flextensions\bin\x86\Release\Flextensions.pdb
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Release\Flextensions.dll
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Release\Flextensions.pdb
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Release\Flextensions.csprojResolveAssemblyReference.cache

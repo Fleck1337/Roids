@@ -1,0 +1,4 @@
+H:\_Dev\VS Projects\Roids\Roids\RoidsContent\obj\x86\Debug\RoidsContent.contentprojResolveAssemblyReference.cache
+F:\_Dev\VS Projects\Roids\Roids\RoidsContent\obj\x86\Debug\RoidsContent.contentprojResolveAssemblyReference.cache
+H:\_Classes\Programming\Roids\Roids\RoidsContent\obj\x86\Debug\RoidsContent.contentprojResolveAssemblyReference.cache
+E:\_Development\XNA\Roids\Roids\RoidsContent\obj\x86\Debug\RoidsContent.contentprojResolveAssemblyReference.cache

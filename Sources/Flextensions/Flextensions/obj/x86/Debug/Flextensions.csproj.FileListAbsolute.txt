@@ -1,0 +1,18 @@
+H:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\_Dev\VS Projects\Flextensions\Flextensions\bin\x86\Debug\Flextensions.dll
+H:\_Dev\VS Projects\Flextensions\Flextensions\bin\x86\Debug\Flextensions.pdb
+H:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Flextensions.dll
+H:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Flextensions.pdb
+H:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Flextensions.csprojResolveAssemblyReference.cache
+F:\_Dev\VS Projects\Flextensions\Flextensions\bin\x86\Debug\Flextensions.dll
+F:\_Dev\VS Projects\Flextensions\Flextensions\bin\x86\Debug\Flextensions.pdb
+F:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Flextensions.csprojResolveAssemblyReference.cache
+F:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Flextensions.dll
+F:\_Dev\VS Projects\Flextensions\Flextensions\obj\x86\Debug\Flextensions.pdb
+E:\_Development\XNA\Flextensions\Flextensions\bin\x86\Debug\Flextensions.dll
+E:\_Development\XNA\Flextensions\Flextensions\bin\x86\Debug\Flextensions.pdb
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Debug\Flextensions.dll
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Debug\Flextensions.pdb
+E:\_Development\XNA\Flextensions\Flextensions\obj\x86\Debug\Flextensions.csprojResolveAssemblyReference.cache

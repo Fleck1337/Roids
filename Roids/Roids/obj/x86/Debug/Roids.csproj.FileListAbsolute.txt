@@ -1,0 +1,154 @@
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Roids.exe
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Roids.pdb
+H:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Roids.csprojResolveAssemblyReference.cache
+H:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Roids.exe
+H:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Roids.pdb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\PlayerShip.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Projectile.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\DebugFont.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\TitleFont.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\SubFont.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Trail.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Flextensions.dll
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Flextensions.pdb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomCombine.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomExtract.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\GaussianBlur.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\PlayerShip.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Projectile.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Trail.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\DebugFont.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\TitleFont.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\SubFont.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomCombine.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomExtract.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\GaussianBlur.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Roids.exe
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Roids.pdb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Flextensions.dll
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Flextensions.pdb
+F:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Roids.csprojResolveAssemblyReference.cache
+F:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Roids.exe
+F:\_Dev\VS Projects\Roids\Roids\Roids\obj\x86\Debug\Roids.pdb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6.xnb
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7.xnb
+F:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Roids.exe.config
+H:\_Dev\VS Projects\Roids\Roids\Roids\bin\x86\Debug\Roids.exe.config
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\PlayerShip.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Projectile.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Trail.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\DebugFont.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\TitleFont.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\SubFont.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomCombine.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomExtract.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\GaussianBlur.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Roids.exe.config
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Roids.exe
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Roids.pdb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Flextensions.dll
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Flextensions.pdb
+E:\_Development\XNA\Roids\Roids\Roids\obj\x86\Debug\Roids.csprojResolveAssemblyReference.cache
+E:\_Development\XNA\Roids\Roids\Roids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\_Development\XNA\Roids\Roids\Roids\obj\x86\Debug\Roids.exe
+E:\_Development\XNA\Roids\Roids\Roids\obj\x86\Debug\Roids.pdb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7-1.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7-2.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7-3.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Back.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Select.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Explode.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Hit.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\GameOver.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Laser_Shoot.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\PlayerShip.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Projectile.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Trail.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid0-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid1-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid2-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid3-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid4-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid5-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid6-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7-1.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7-2.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Asteroid7-3.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\DebugFont.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\TitleFont.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Fonts\SubFont.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomCombine.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\BloomExtract.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Effects\GaussianBlur.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Back.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Select.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Explode.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\GameOver.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Laser_Shoot.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\Hit.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Roids.exe.config
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Roids.exe
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Roids.pdb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Flextensions.dll
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Flextensions.pdb
+H:\_Classes\Programming\Roids\Roids\Roids\obj\x86\Debug\Roids.csprojResolveAssemblyReference.cache
+H:\_Classes\Programming\Roids\Roids\Roids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\_Classes\Programming\Roids\Roids\Roids\obj\x86\Debug\Roids.exe
+H:\_Classes\Programming\Roids\Roids\Roids\obj\x86\Debug\Roids.pdb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Saucer.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\The Blue Danube.xnb
+H:\_Classes\Programming\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\The Blue Danube.wma
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Art\Saucer.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\The Blue Danube.xnb
+E:\_Development\XNA\Roids\Roids\Roids\bin\x86\Debug\Content\Sound\The Blue Danube.wma
