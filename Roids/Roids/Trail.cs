@@ -34,12 +34,12 @@ namespace Roids
         public void Update()
         {
             TimeSinceSpawn += 1 / 60f;
-
         }
 
         public void Draw(SpriteBatch sb)
         {
             Color col = Color.White;
+            // Fade out over time.
             col *= 1 - (TimeSinceSpawn / 3);
             sb.Draw(m_image, m_position, null, col, m_rotation, m_center, m_scale, SpriteEffects.None, 0.1f);
         }

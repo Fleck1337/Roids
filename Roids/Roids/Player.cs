@@ -118,6 +118,7 @@ namespace Roids
         public void Draw(SpriteBatch sb)
         {
             Color col = Color.White;
+            // Fade in over time.
             col *= TimeSinceSpawn / 3;
             sb.Draw(m_shipImage, m_position, null, col, Rotation, m_center, 1, SpriteEffects.None, 0.1f);
         }

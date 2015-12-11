@@ -107,7 +107,7 @@ namespace Roids
             currGameState = GameState.Loading;
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            // Load art and fonts.
+            // Load art and sound. Reset variables to defaults.
             Art.Load(Content);
             Sound.Load(Content);
             ResetGame();
@@ -318,7 +318,7 @@ namespace Roids
                 }
                 int projs = playerProjectiles.Count;
                 // Shoot Projectile
-                if ((Input.WasButtonPressed(Buttons.A) || Input.WasKeyPressed(Keys.Space)) && playerProjectiles.Count() < MAXPLAYERPROJS)
+                if ((Input.WasButtonPressed(Buttons.A) || Input.WasKeyPressed(Keys.Space)) && (playerProjectiles.Count() < MAXPLAYERPROJS || debugToggle))
                 {
                     Sound.Shoot.Play(SE_Volume * Master_Volume * 0.5f, (float)RNG.NextDouble(), 0f);
                     playerProjectiles.Add(new Projectile((int)playerShip.Position.X, (int)playerShip.Position.Y, new Vector2((float)Math.Cos(playerShip.Rotation), (float)Math.Sin(playerShip.Rotation)), 3f));
