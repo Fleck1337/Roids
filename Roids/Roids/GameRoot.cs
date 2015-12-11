@@ -630,7 +630,8 @@ namespace Roids
             if (debugToggle && currGameState == GameState.Playing)
             {
                 spriteBatch.DrawString(Art.DebugFont,
-                    "Player Position: " + playerShip.Position +
+                    "FPS: " +  (1 / (float)gameTime.ElapsedGameTime.TotalSeconds).ToString("N0") +
+                    "\nPlayer Position: " + playerShip.Position +
                     "\nPlayer Velocity: " + playerShip.Velocity +
                     "\nPlayer Speed: " + playerShip.Velocity.Length() +
                     "\nNo. of Asteroids : " + asteroids.Count() +
