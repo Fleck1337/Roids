@@ -27,7 +27,7 @@ namespace Roids
             m_position = new Vector2(xPos, yPos);
             // Offset spawn position to front of ship rather than center point.
             m_position += direction * 15f;
-            m_velocity = direction * 10f;
+            m_velocity = direction * 6f;
             m_center = new Vector2(m_image.Width / 2, m_image.Height / 2);
             screenWrap = wrapScreen;
             Lifetime = lifetime;

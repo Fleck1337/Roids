@@ -78,10 +78,10 @@ namespace Roids
 
             #region Cap Velocity
             // Limit Velocity.
-            if (m_velocity.Length() > 9)
+            if (m_velocity.Length() > 5)
             {
                 m_velocity.Normalize();
-                m_velocity *= 9;
+                m_velocity *= 5;
             }
             if (m_velocity.Length() < 0.1)
                 m_velocity = Vector2.Zero;

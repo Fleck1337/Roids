@@ -11,7 +11,7 @@ using Flextensions;
 /*  TODO:
  *  ???
  *  BUGS:
- *  Firing projectile sometimes 'fires' 'somewhere'... This will be fun to track. POSSIBLE FIX IMPLEMENTED
+ *  Firing projectile sometimes 'fires' 'somewhere'... POSSIBLE FIX NO WORKY
 */
 namespace Roids
 {
