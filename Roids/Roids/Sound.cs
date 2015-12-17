@@ -18,13 +18,14 @@ namespace Roids
 
         public static void Load(ContentManager content)
         {
+            // Sound Effects
             Select = content.Load<SoundEffect>("Sound/Select");
             Back = content.Load<SoundEffect>("Sound/Back");
             Hit = content.Load<SoundEffect>("Sound/Hit");
             Explode = content.Load<SoundEffect>("Sound/Explode");
             Shoot = content.Load<SoundEffect>("Sound/Laser_Shoot");
             GameOver = content.Load<SoundEffect>("Sound/GameOver");
-
+            // Song
             Music = content.Load<Song>("Sound/The Blue Danube");
         }
     }

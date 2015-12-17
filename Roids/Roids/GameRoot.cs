@@ -343,7 +343,7 @@ namespace Roids
                         // Player may be hitting an asteroid!
                         debugCheckingPixels = true;
                         tempAst = asteroids[i];
-                        // This should be the only call to PixelDetect, and as such is not my code.
+                        // Begin checking pixels between us and the asteroid.
                         #region if (PixelDetect)
                         if (PixelDetect(playerShip.shipTransform, playerShip.Radius * 2,
                                         playerShip.Radius * 2, playerShip.PlayerTexData,
@@ -373,16 +373,6 @@ namespace Roids
                                     asteroids.Add(new Asteroid(Art.Asteroids[RNG.Next(0, 8), tempRoid.Size  - 2], (int)tempRoid.Position.X, (int)tempRoid.Position.Y, tempRoid.Size - 1, RNG));
                             }
                             break;
-                        }
-                    }
-                    #endregion
-                    #region Loop through other asteroids
-                    for (int k = i + 1; k < asteroids.Count(); k++)
-                    {
-                        if (Vector2.Distance(asteroids[i].Position, asteroids[k].Position) < asteroids[i].Radius + asteroids[k].Radius)
-                        {
-                            asteroids[i].HandleCollision(asteroids[k]);
-                            asteroids[k].HandleCollision(asteroids[i]);
                         }
                     }
                     #endregion
@@ -578,12 +568,21 @@ namespace Roids
                 string scoreText = "Score: " + score;
                 string warnText = "UFO Incoming!";
                 Vector2 scorePos = new Vector2(WIDTH - Art.SubFont.MeasureString(scoreText).X, 0);
-                Vector2 warnPos = new Vector2(WIDTH/ 2 - Art.SubFont.MeasureString(warnText).X / 2, 0);
+                Vector2 scorePosShadow = new Vector2(WIDTH - Art.SubFont.MeasureString(scoreText).X - 1, 0);
+                Vector2 warnPos = new Vector2(WIDTH / 2 - Art.SubFont.MeasureString(warnText).X / 2, 0);
+                Vector2 warnPosShadow = new Vector2(WIDTH / 2 - Art.SubFont.MeasureString(warnText).X + 1 / 2, 0);
+
+                // Lives text and shadow.
+                spriteBatch.DrawString(Art.SubFont, "Lives: " + lives, Vector2.UnitX, Color.Black);
                 spriteBatch.DrawString(Art.SubFont, "Lives: " + lives, Vector2.Zero, Color.White);
+                // Score text and shadow.
+                spriteBatch.DrawString(Art.SubFont, scoreText, scorePosShadow, Color.Black);
                 spriteBatch.DrawString(Art.SubFont, scoreText, scorePos, Color.White);
+                // Enemy warning text and shadow.
                 if (spawnTime - enemyTimer < 5)
                 {
-                    spriteBatch.DrawString(Art.SubFont, warnText, warnPos, Color.White); 
+                    spriteBatch.DrawString(Art.SubFont, warnText, warnPosShadow, Color.Black);
+                    spriteBatch.DrawString(Art.SubFont, warnText, warnPos, Color.White);
                 }
             }
             #endregion
@@ -629,6 +628,18 @@ namespace Roids
             #region Draw Debug UI
             if (debugToggle && currGameState == GameState.Playing)
             {
+                // Shadow-like Effect
+                spriteBatch.DrawString(Art.DebugFont,
+                    "FPS: " + (1 / (float)gameTime.ElapsedGameTime.TotalSeconds).ToString("N0") +
+                    "\nPlayer Position: " + playerShip.Position +
+                    "\nPlayer Velocity: " + playerShip.Velocity +
+                    "\nPlayer Speed: " + playerShip.Velocity.Length() +
+                    "\nNo. of Asteroids : " + asteroids.Count() +
+                    "\nCheckPixels: " + debugCheckingPixels +
+                    "\nPlayerHit: " + debugPlayerHit +
+                    "\nSpawn UFO in: " + (spawnTime - enemyTimer) + "s." +
+                    "\nTrails: " + trails.Count(),
+                    new Vector2(1, Art.SubFont.MeasureString("T").Y + 1), Color.Black);
                 spriteBatch.DrawString(Art.DebugFont,
                     "FPS: " +  (1 / (float)gameTime.ElapsedGameTime.TotalSeconds).ToString("N0") +
                     "\nPlayer Position: " + playerShip.Position +

@@ -11,6 +11,7 @@ namespace Roids
     {
         public static bool IsAllowed(Keys key)
         {
+            // Returns true if an alphabetical(En qwerty) key.
             switch (key)
             {
                 case Keys.A:

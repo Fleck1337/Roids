@@ -22,11 +22,12 @@ namespace Roids
             Trail = content.Load<Texture2D>("Art/Trail");
             Projectile = content.Load<Texture2D>("Art/Projectile");
             Saucer = content.Load<Texture2D>("Art/Saucer");
+            // Load a 2d array of Textures, representing variation and size of asteroids.
             Asteroids = new Texture2D[8,3];
             for (int i = 0; i < 8; i++)
                 for (int j = 0; j < 3; j++)
                     Asteroids[i, j] = content.Load<Texture2D>("Art/Asteroid" + i + "-" + (j+1));
-
+            // Load Fonts
             DebugFont = content.Load<SpriteFont>("Fonts/DebugFont");
             TitleFont = content.Load<SpriteFont>("Fonts/TitleFont");
             SubFont = content.Load<SpriteFont>("Fonts/SubFont");

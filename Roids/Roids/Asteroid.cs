@@ -49,16 +49,6 @@ namespace Roids
         }
         #endregion
 
-        #region Custom Functions
-        public void HandleCollision(Asteroid other)
-        {
-            Vector2 dir = Position - other.Position;
-            dir.Normalize();
-            // This can lead to asteroids "vanishing". maybe Clamp?
-            //m_velocity += dir / 1000;
-        }
-        #endregion
-
         #region Update and Draw
         public void Update()
         {
