@@ -147,8 +147,6 @@ namespace Roids
             playerShip = new Player(Art.PlayerShip, WIDTH / 2, HEIGHT / 2);
             playerProjectiles = new List<Projectile>();
             trails = new List<Trail>();
-            // Does this help the disappearing trail?
-            trails.Clear();
             CreateAsteroids(STARTLEVEL);
             debugToggle = false;
             debugPlayerHit = false;
@@ -316,6 +314,12 @@ namespace Roids
                         trails.Add(new Trail((int)playerShip.Position.X, (int)playerShip.Position.Y, new Vector2((float)Math.Cos(playerShip.Rotation), (float)Math.Sin(playerShip.Rotation)), 3f, trailScale + Input.GetRightTrigger()));
                     }
                 }
+                // Warp Drive
+                if (Input.WasButtonPressed(Buttons.X) || Input.WasKeyPressed(Keys.S))
+                {
+                    playerShip.Position.X = RNG.Next(0, WIDTH);
+                    playerShip.Position.Y = RNG.Next(0, HEIGHT);
+                }
                 int projs = playerProjectiles.Count;
                 // Shoot Projectile
                 if ((Input.WasButtonPressed(Buttons.A) || Input.WasKeyPressed(Keys.Space)) && (playerProjectiles.Count() < MAXPLAYERPROJS || debugToggle))
@@ -337,8 +341,13 @@ namespace Roids
                 for (int i = 0; i < asteroids.Count(); i++)
                 {
                     asteroids[i].Update();
-                    #region if (distance is close enough to player)
-                    if (Vector2.Distance(playerShip.Position, asteroids[i].Position) < playerShip.Radius + asteroids[i].Radius)
+                    // If we are very close, don't bother pixel check.
+                    if (Vector2.Distance(playerShip.Position, asteroids[i].Position) < asteroids[i].Radius/2)
+                    {
+                        KillPlayer();
+                    }
+                    #region if (distance is close enough to player) Check Pixels
+                    else if (Vector2.Distance(playerShip.Position, asteroids[i].Position) < playerShip.Radius + asteroids[i].Radius)
                     {
                         // Player may be hitting an asteroid!
                         debugCheckingPixels = true;
@@ -355,6 +364,7 @@ namespace Roids
                         }
                     }
                     #endregion
+
                     #region Loop through playerProjectiles
                     for (int j = 0; j < playerProjectiles.Count(); j++)
                     {

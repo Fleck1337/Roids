@@ -18,19 +18,18 @@ namespace Roids
         public Matrix shipTransform;
 
         private Texture2D m_shipImage;
-        private Vector2 m_position, m_velocity, m_direction, m_center;
+        private Vector2 m_velocity, m_direction, m_center;
         #endregion
 
         #region Constructor
         public Player(Texture2D image, int xPos, int yPos)
         {
             m_shipImage = image;
-            m_position = new Vector2(xPos, yPos);
+            Position = new Vector2(xPos, yPos);
             m_velocity = Vector2.Zero;
             m_direction = Vector2.Zero;
             m_center = new Vector2(image.Width / 2, image.Height / 2);
             Rotation = (3f * (float)Math.PI)/2f;      // Rotate by 270 degrees so the ship faces up on spawn.
-            Position = m_position;
             Radius = image.Width / 2;
 
             // This is used for collision detection. NOT MINE
@@ -89,20 +88,19 @@ namespace Roids
 
             #region Screen Wrap
             // Screen Wrap.
-            if (m_position.X + Radius < 0)
-                m_position.X = GameRoot.WIDTH - 1;
-            if (m_position.X > GameRoot.WIDTH + Radius)
-                m_position.X = 1 - Radius;
-            if (m_position.Y + Radius < 0)
-                m_position.Y = GameRoot.HEIGHT - 1;
-            if (m_position.Y > GameRoot.HEIGHT + Radius)
-                m_position.Y = 1 - Radius;
+            if (Position.X + Radius < 0)
+                Position.X = GameRoot.WIDTH - 1;
+            if (Position.X > GameRoot.WIDTH + Radius)
+                Position.X = 1 - Radius;
+            if (Position.Y + Radius < 0)
+                Position.Y = GameRoot.HEIGHT - 1;
+            if (Position.Y > GameRoot.HEIGHT + Radius)
+                Position.Y = 1 - Radius;
             #endregion
 
             #region Update Player Position
             // Update position.
-            m_position += m_velocity;
-            Position = m_position;
+            Position += m_velocity;
             Velocity = m_velocity;
             #endregion
 
@@ -111,7 +109,7 @@ namespace Roids
             shipTransform =
                 Matrix.CreateTranslation(new Vector3(-m_center, 0.0f)) *
                 Matrix.CreateRotationZ(Rotation) *
-                Matrix.CreateTranslation(new Vector3(m_position, 0.0f));
+                Matrix.CreateTranslation(new Vector3(Position, 0.0f));
             #endregion
         }
 
@@ -120,7 +118,7 @@ namespace Roids
             Color col = Color.White;
             // Fade in over time.
             col *= TimeSinceSpawn / 3;
-            sb.Draw(m_shipImage, m_position, null, col, Rotation, m_center, 1, SpriteEffects.None, 0.1f);
+            sb.Draw(m_shipImage, Position, null, col, Rotation, m_center, 1, SpriteEffects.None, 0.1f);
         }
         #endregion
     }

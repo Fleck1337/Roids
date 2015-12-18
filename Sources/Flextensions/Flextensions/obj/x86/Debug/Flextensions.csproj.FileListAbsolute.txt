@@ -22,3 +22,9 @@ E:\_Development\XNA\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Flexte
 E:\_Development\XNA\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\_Development\XNA\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Flextensions.dll
 E:\_Development\XNA\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Flextensions.pdb
+H:\_Classes\Programming\Roids\Sources\Flextensions\Flextensions\bin\x86\Debug\Flextensions.dll
+H:\_Classes\Programming\Roids\Sources\Flextensions\Flextensions\bin\x86\Debug\Flextensions.pdb
+H:\_Classes\Programming\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Flextensions.csprojResolveAssemblyReference.cache
+H:\_Classes\Programming\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\_Classes\Programming\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Flextensions.dll
+H:\_Classes\Programming\Roids\Sources\Flextensions\Flextensions\obj\x86\Debug\Flextensions.pdb
