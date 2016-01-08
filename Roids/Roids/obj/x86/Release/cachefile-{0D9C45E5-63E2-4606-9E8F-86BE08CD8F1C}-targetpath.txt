@@ -1,7 +1,6 @@
 Content\Art\PlayerShip.xnb
 Content\Art\Projectile.xnb
 Content\Art\Trail.xnb
-Content\Art\Asteroid0.xnb
 Content\Art\Asteroid0-1.xnb
 Content\Art\Asteroid0-2.xnb
 Content\Art\Asteroid0-3.xnb

@@ -1,5 +1,7 @@
 #region Using Statements
 using System;
+using System.Diagnostics;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
@@ -83,6 +85,9 @@ namespace Roids
             // Instance the bloom component and add it to the components.
             bloom = new BloomComponent(this);
             Components.Add(bloom);
+
+            //Run notepad.exe opening the README file in this(debug/release) directory.
+            //Process.Start("notepad.exe", Directory.GetCurrentDirectory() + "/README.md");
         }
         #endregion
 
