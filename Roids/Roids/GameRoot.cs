@@ -281,6 +281,11 @@ namespace Roids
                             {
                                 KillPlayer();
                                 enemySaucer.EnemyProjectiles.RemoveAt(i);
+                                if (!debugToggle)
+                                {
+                                    enemySaucer.EnemyProjectiles.Clear();
+                                    enemySaucer.Position.X = -100;
+                                }
                             }
                         }
                     }

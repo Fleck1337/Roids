@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <HighscoreData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Names>
-    <string>Bob</string>
-    <string>Nathan</string>
-    <string>Ed</string>
-    <string>Frank</string>
-    <string>Mike</string>
+    <string>SEAN</string>
+    <string>NIGEL</string>
+    <string>DA</string>
+    <string>ME</string>
+    <string>OOO</string>
   </Names>
   <Scores>
-    <int>200</int>
-    <int>180</int>
-    <int>130</int>
-    <int>90</int>
-    <int>10</int>
+    <int>18490</int>
+    <int>9680</int>
+    <int>6220</int>
+    <int>5570</int>
+    <int>5500</int>
   </Scores>
   <Count>5</Count>
 </HighscoreData>
